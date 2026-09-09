@@ -1,0 +1,324 @@
+<<<<<<< Updated upstream
+=======
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* main */
+.main-highlight-wrapper {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.main-highlight-wrapper ul {
+  list-style: none;
+}
+.model {
+  font-size: 0.85em;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-weight: 900;
+  padding-left: 10px;
+}
+/* .second-highlight */
+.second-highlight-wrapper {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+.title-wrapper {
+  font-weight: 600;
+  font-size: 56px;
+}
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.price-wrapper {
+  color: #86868b;
+  font-size: 0.85em;
+}
+
+/* third */
+
+.third-highlight-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  background-position: center;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+
+/*fourth highlight*/
+
+
+.fourth-highlight-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.left-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+}
+.fourth-highlight-wrapper .left-side-wrapper {
+  background-image: url("../images/home/watch-series-5.jpg");
+}
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+.fourth-highlight-wrapper .right-side-wrapper {
+  background-image: url("../images/home/apple-card.jpg");
+}
+.description-wrapper-4 {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*fifth highlight*/
+.fifth-highlight-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.fifth-highlight-wrapper .left-side-wrapper {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.fifth-highlight-wrapper .right-side-wrapper {
+  background-image: url("../images/home//air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+.tvshow-logo-wraper {
+  padding: 180px 0 200px;
+}
+/* the "Watch the trailer" why it does not fit its perfect location?*/
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+
+
+
+
+
+/* Footer */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: 0.65em;
+}
+
+.my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright-wrapper {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+
+.footer-links-terms ul li {
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+
+.footer-links-terms ul li:last-child {
+    border-right: 0px;
+}
+
+.footer-links-terms ul li a {
+    text-decoration: none;
+    color: #515154;
+}
+
+.footer-links-terms ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-country {
+    display: inline-block;
+}
+
+.flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-country-name {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.apple-footer {
+    background-color: #f5f5f5;
+    padding: 30px 5%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 30px;
+}
+
+.footer-section {
+    min-width: 0;
+
+}
+
+.footer-title {
+    margin: 0 0 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #424245;
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-arrow {
+    display: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .apple-footer {
+        display: block;
+        padding: 10px 12px 30px;
+    }
+
+    .footer-section {
+        border-top: 1px solid #d2d2d7;
+    }
+
+    .footer-section:last-child {
+        border-bottom: 1px solid #d2d2d7;
+    }
+
+    .footer-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 15px 0;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .footer-links {
+        display: none;
+        margin: 0;
+        padding: 0 20px 15px;
+    }
+
+    .footer-links li {
+        margin-bottom: 15px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+        color: #424245;
+    }
+
+    .footer-arrow {
+        display: block;
+        /* font-size: 22px; */
+        font-weight: 300;
+        line-height: 1;
+        /* transition: transform 0.2s ease; */
+        user-select: none;
+    }
+}
+>>>>>>> Stashed changes
