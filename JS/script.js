@@ -1,3 +1,7 @@
+
+
+console.log("hello");
+
 $(function () {
   $(".footer-title").on("click", function () {
     if ($(window).width() > 768) {
